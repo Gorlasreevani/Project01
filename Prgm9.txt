@@ -1,0 +1,25 @@
+package Phase1eLearningAssiignment1;
+
+public class StringBuilderandBuffer {
+	
+public static void main(String[] args) {
+		
+		StringBuffer buffer = new StringBuffer("Hello ");
+		buffer.append(".what are u doing");
+		StringBuilder builder = new StringBuilder(" Hello vani");
+		builder.append(".who is this ");
+		System.out.println(buffer);
+	}
+
+
+}
+
+
+*****************OUTPUT**********************
+
+
+Hello .what are u doing -->buffer  o/p
+
+Hello vani.who is this-->builder  o/p
+
+
