@@ -1,0 +1,21 @@
+import java.lang.String;
+public class StringInput {
+public static void main(String[] args) {
+		
+		String s="4889";
+		String d="02.0";
+		String f="43.1f";
+		
+		float f1=Float.parseFloat(f);
+		System.out.println(f1);
+		
+		double d1=Double.parseDouble(d);
+		System.out.println(d1);
+		
+		int s1=Integer.parseInt(s);
+		System.out.println(s1);
+--------***-----
+output:
+43.1
+2.0
+4889
